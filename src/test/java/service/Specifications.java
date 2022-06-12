@@ -17,6 +17,9 @@ public class Specifications {
     public static ResponseSpecification responseOK200(){
         return new ResponseSpecBuilder().expectStatusCode(200).build();
     }
+    public static ResponseSpecification responseOK201(){
+        return new ResponseSpecBuilder().expectStatusCode(201).build();
+    }
     public static ResponseSpecification responseOK204(){
         return new ResponseSpecBuilder().expectStatusCode(204).build();
     }
